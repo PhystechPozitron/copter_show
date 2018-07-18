@@ -9,7 +9,6 @@ from std_srvs.srv import Trigger
 
 dh = 0.2 # height tolerance
 takeoff_speed = 1 # speed of taking off
-landing_speed = 1 # speed of landing
 
 rospy.init_node('takeoff')
 
