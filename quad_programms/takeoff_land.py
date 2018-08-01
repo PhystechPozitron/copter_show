@@ -13,7 +13,7 @@ dh = 0.3 # height tolerance
 rospy.init_node('foo')
 
 def usage():
-    return "usage: takeoff_land.py t h"
+    return "usage: takeoff_land.py h t"
 
 if __name__ == '__main__':
     if len(sys.argv) == 3:
